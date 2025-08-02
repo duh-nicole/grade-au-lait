@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> ---- Grade Calculator ---- </h1>
+            <div class="title-separator"></div>
+
+        <form action="calculate_grade.php" method="post">
+
+            <fieldset>
+                <legend>Assignment 1</legend>
+                <label for="grade1_earned">Points Earned: </label>
+                <input type="number" id="grade1_earned" name="grade1_earned" step="any" required placeholder="e.g., 85.5"><br><br>
+        
+                <label for="grade1_possible">Points Possible: </label>
+                <input type="number" id="grade1_possible" name="grade1_possible" step="any" required placeholder="e.g., 100"><br><br>
+            </fieldset>
+            <br>
+    
+            <fieldset>
+                <legend>Assignment 2</legend>
+                <label for="grade2_earned">Points Earned: </label>
+                <input type="number" id="grade2_earned" name="grade2_earned" step="any" required placeholder="e.g., 45.2"><br><br>
+        
+                <label for="grade2_possible">Points Possible: </label>
+                <input type="number" id="grade2_possible" name="grade2_possible" step="any" required placeholder="e.g., 50"><br><br>
+            </fieldset>
+            <br>
+        
+            <fieldset>
+                <legend>Assignment 3</legend>
+                <label for="grade3_earned">Points Earned: </label>
+                <input type="number" id="grade3_earned" name="grade3_earned" step="any" required placeholder="e.g., 24.9"><br><br>
+        
+                <label for="grade3_possible">Points Possible: </label>
+                <input type="number" id="grade3_possible" name="grade3_possible" step="any" required placeholder="e.g., 25.0"><br><br>
+            </fieldset>
+            <br>
+    
+            <fieldset>
+                <legend>Assignment 4</legend>
+                <label for="grade4_earned">Points Earned: </label>
+                <input type="number" id="grade4_earned" name="grade4_earned" step="any" required placeholder="e.g., 75.5"><br><br>
+        
+                <label for="grade4_possible">Points Possible: </label>
+                <input type="number" id="grade4_possible" name="grade4_possible" step="any" required placeholder="e.g., 150"><br><br>
+            </fieldset>
+            <br> 
+
+            <fieldset>
+                <legend>Assignment 5</legend>
+                <label for="grade5_earned">Points Earned: </label>
+                <input type="number" id="grade5_earned" name="grade5_earned" step="any" required placeholder="e.g., 95.5"><br><br>
+        
+                <label for="grade5_possible">Points Possible: </label>
+                <input type="number" id="grade5_possible" name="grade5_possible" step="any" required placeholder="e.g., 100"><br><br>
+            </fieldset>
+            <br>
+    
+            <fieldset>
+                <legend>Assignment 6</legend>
+                <label for="grade6_earned">Points Earned: </label>
+                <input type="number" id="grade6_earned" name="grade6_earned" step="any" required placeholder="e.g., 2.5"><br><br>
+        
+                <label for="grade6_possible">Points Possible: </label>
+                <input type="number" id="grade6_possible" name="grade6_possible" step="any" required placeholder="e.g., 5"><br><br>
+            </fieldset>
+            <br>
+     
+            <input type="submit" value="Crunch Numbers/Calculate Grade">
+        
+        </form>
+    </div>
+
+</body>
+</html>
